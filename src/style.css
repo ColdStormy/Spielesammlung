@@ -1,0 +1,50 @@
+.background {
+    -fx-background-image: url("data/uni_background.jpeg");
+    -fx-background-size: cover;
+}
+
+.titleFont {
+    -fx-font-size: 40px;
+    -fx-text-fill: #fbf6ff;
+}
+
+.buttonGamePick {
+    -fx-text-alignment: center;
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-text-fill: #ffffff;
+}
+
+.buttonGamePick:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #383838;
+    -fx-cursor: hand;
+}
+
+.previewImage {
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2.5px;
+}
+
+.desc {
+    -fx-text-fill: #ffffff;
+    -fx-wrap-text: true;
+    -fx-text-alignment: justify;
+}
+
+.startButton {
+    -fx-background-color: #00DB78;
+    -fx-border-color: #ffffff;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10px 20px;
+}
+
+.startButton:hover {
+    -fx-background-color: #00ac56;
+    -fx-cursor: hand;
+}
+
+.currentlyPlayingLabel {
+    -fx-font-style: italic;
+    -fx-text-fill: #ffffff;
+}
